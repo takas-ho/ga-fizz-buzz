@@ -3,7 +3,8 @@ const fizzbuzz = require("../index");
 
 describe("fizzbuzz", () => {
   it("returns FizzBuzz when value is divisible by 15", () => {
-    assert(fizzbuzz(30) === "FizzBuzz"); });
+    assert(fizzbuzz(30) === "FizzBuzz");
+  });
   it("returns Fizz when value is divisible by 3", () => {
     assert(fizzbuzz(9) === "Fizz");
   });
@@ -14,4 +15,3 @@ describe("fizzbuzz", () => {
     assert(fizzbuzz(7) === "7");
   });
 });
-
